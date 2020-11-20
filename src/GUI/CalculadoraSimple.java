@@ -1,11 +1,6 @@
 package GUI;
 
 import java.awt.EventQueue;
-
-
-
-
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.BorderLayout;
@@ -20,6 +15,10 @@ import java.util.List;
 import java.awt.event.ActionEvent;
 import Logica.PluginDemo;
 import Logica.PluginInterface;
+
+/**
+ * Clase que modela una calculadora simple con plugins.
+ */
 public class CalculadoraSimple {
 
 	private JFrame frame;
